@@ -71,7 +71,7 @@ Requirements:
     for (let attempt = 0; attempt < 3; attempt++) {
       try {
         const response = await fetch(
-          "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+          "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-lite:generateContent",
           {
             method: "POST",
             headers: {
